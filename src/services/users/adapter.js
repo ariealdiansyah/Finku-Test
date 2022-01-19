@@ -1,4 +1,5 @@
 export const AdapterAllUsers = (data) => {
+  console.log(data);
   const dataList = data.map((x) => {
     return {
       id: x._id,
@@ -7,6 +8,7 @@ export const AdapterAllUsers = (data) => {
       email: x.email,
       countryCode: x.countryCode,
       name: `${x.firstNamex} ${x.lastName}`,
+      password : x.password
     }
   })
 

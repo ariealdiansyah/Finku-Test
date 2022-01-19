@@ -102,12 +102,13 @@ module.exports = configure(function (ctx) {
         'QItem',
         'QItemSection',
         'QItemLabel',
-        'QAvatar'
+        'QAvatar',
+        'QDialog'
       ],
       // directives: [],
 
       // Quasar plugins
-      plugins: []
+      plugins: ['Dialog', 'Notify']
     },
 
     // animations: 'all', // --- includes all animations
